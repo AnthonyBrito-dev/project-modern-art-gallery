@@ -1,0 +1,10 @@
+h1 {
+    font-size: 50px;
+    padding: 24px 0px;
+}
+
+h2 {
+    @include breakpoint(largedesktop) {
+        font-size: 60px;
+    }
+}

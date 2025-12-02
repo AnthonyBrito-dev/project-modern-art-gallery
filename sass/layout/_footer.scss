@@ -1,0 +1,69 @@
+footer {
+    padding: 40px 28px;
+
+    @include breakpoint(tablet) {
+        display: flex;
+        justify-content: space-between;
+        padding: 70px 30px;
+    }
+
+    @include breakpoint(largedesktop) {
+        display: flex;
+        justify-content: space-between;
+        padding: 70px 165px;
+    }
+
+    h3 {
+        font-size: 30px;
+        margin-bottom: 26px;
+        font-weight: 800;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 26px;
+        font-weight: 300;
+         
+        @include breakpoint(tablet) {
+            max-width: 35%;
+            align-items: center;
+            align-content: center;
+            line-height: 30px;
+            margin-left: -80px;
+        }
+
+        @include breakpoint(largedesktop) {
+            max-width: 35%;
+            align-items: center;
+            align-content: center;
+            line-height: 30px;
+            margin-left: -80px;
+        }
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: space-between;
+        max-width: 30%;
+
+        @include breakpoint(tablet) {
+            gap: 30px;
+            align-items: flex-start;
+            justify-items: center;
+            justify-content: center;
+        }
+
+        @include breakpoint(largedesktop) {
+            gap: 30px;
+            align-items: flex-start;
+            justify-items: center;
+            justify-content: center;
+        }
+
+        img.three-image {
+            @include breakpoint(tablet) {
+                max-width: 35px;
+            }
+        }
+    }
+}
