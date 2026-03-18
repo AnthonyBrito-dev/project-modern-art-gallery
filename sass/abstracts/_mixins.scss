@@ -5,7 +5,7 @@
     }
   }
   @if $point == desktop {
-    @media  (min-width: 1025px) {
+    @media  (min-width: 1024px) {
       @content;
     }
   } @else if $point == tablet {
