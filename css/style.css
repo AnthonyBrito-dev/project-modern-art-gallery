@@ -34,7 +34,7 @@ h1 {
   padding: 24px 0px;
 }
 
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   h2 {
     font-size: 60px;
   }
@@ -48,7 +48,7 @@ h1 {
     display: flex;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .hero {
     background-color: black;
     max-width: 70%;
@@ -64,7 +64,7 @@ h1 {
     display: none;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .hero img.principal {
     display: none;
   }
@@ -78,14 +78,15 @@ h1 {
     position: relative;
     max-width: 60%;
     margin-left: -15px;
+    max-height: 775px;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .hero img.principal-tablet {
     display: flex;
     position: relative;
     width: 55%;
-    margin-left: 470px;
+    margin-left: 48%;
     max-height: 750px;
   }
 }
@@ -100,13 +101,12 @@ h1 {
     margin-left: -60px;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .hero h1 {
     position: absolute;
     color: white;
-    margin-top: -600px;
-    font-size: 96px;
-    margin-left: 185px;
+    font-size: 99px;
+    margin-left: -53%;
   }
 }
 .hero p {
@@ -122,13 +122,14 @@ h1 {
     max-width: 43%;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .hero p {
     position: absolute;
-    margin-top: -530px;
-    margin-left: 960px;
-    max-width: 23%;
-    font-size: 22px;
+    margin-top: 11%;
+    margin-left: -5%;
+    max-width: 24%;
+    font-size: 28px;
+    font-weight: 300;
   }
 }
 @media (min-width: 768px) {
@@ -138,11 +139,9 @@ h1 {
     margin-left: -60px;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .hero a {
     position: absolute;
-    margin-top: -330px;
-    margin-left: 960px;
   }
 }
 
@@ -156,7 +155,7 @@ h1 {
     grid-template-rows: 1fr 1fr;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .second {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
@@ -176,7 +175,7 @@ h1 {
     grid-column: 2/span 1;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .second img.img-second-one {
     grid-row: 1/span 2;
     grid-column: 2/span 1;
@@ -195,11 +194,11 @@ h1 {
     display: none;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .second img.img-second-two {
     grid-row: 1/span 2;
     grid-column: 2/span 1;
-    max-width: 90%;
+    max-width: 100%;
     display: grid;
   }
 }
@@ -217,13 +216,11 @@ h1 {
     line-height: 45px;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .second h2 {
     line-height: 45px;
     text-transform: uppercase;
-    align-content: center;
-    justify-items: center;
-    justify-content: center;
+    max-width: 110%;
   }
 }
 .second p {
@@ -238,11 +235,11 @@ h1 {
     margin-top: -20px;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .second p {
     font-size: 20px;
     max-width: 80%;
-    margin-top: -20px;
+    margin-top: 0px;
   }
 }
 
@@ -257,7 +254,7 @@ h1 {
     gap: 10px;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .last {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
@@ -271,7 +268,7 @@ h1 {
   margin-bottom: 12px;
   max-width: 100%;
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .last img {
     margin-bottom: 0px;
   }
@@ -283,7 +280,7 @@ h1 {
     margin-bottom: 0px;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .last img.image-last1 {
     grid-column: 1/span 1;
     grid-row: 1/span 2;
@@ -297,7 +294,7 @@ h1 {
     height: 100%;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .last img.image-last2 {
     display: none;
   }
@@ -310,7 +307,7 @@ h1 {
     display: none;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .last img.image-last3 {
     margin-bottom: 0px;
     display: grid;
@@ -329,7 +326,7 @@ h1 {
     padding: 40px;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .last .container-last {
     grid-row: 2/span 1;
     grid-column: 2/span 1;
@@ -352,7 +349,7 @@ h1 {
     line-height: 47px;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .last .container-last h2 {
     font-size: 60px;
     max-width: 70%;
@@ -371,7 +368,7 @@ h1 {
     line-height: 30px;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .last .container-last p {
     max-width: 100%;
     font-size: 22px;
@@ -393,7 +390,7 @@ h1 {
     display: none;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .container img.map-mobile {
     display: none;
   }
@@ -407,6 +404,11 @@ h1 {
     width: 100%;
   }
 }
+@media (min-width: 1200px) {
+  .container img.map-tablet {
+    display: none;
+  }
+}
 .container img.map-desktop {
   display: none;
 }
@@ -415,7 +417,7 @@ h1 {
     display: none;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .container img.map-desktop {
     display: block;
   }
@@ -429,7 +431,7 @@ h1 {
     margin-left: 39px;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .container a {
     margin-left: 156px;
   }
@@ -455,7 +457,7 @@ h1 {
     gap: 0px 100px;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .location {
     display: grid;
     grid-template-columns: 1fr 1.8fr;
@@ -475,7 +477,7 @@ h1 {
     font-weight: 800;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .location h1 {
     grid-row: 1/span 3;
     font-size: 70px;
@@ -494,7 +496,7 @@ h1 {
     align-content: center;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .location h2 {
     align-items: center;
     align-content: center;
@@ -508,7 +510,7 @@ h1 {
   margin-bottom: 20px;
   font-weight: 200;
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .location .direction {
     font-size: 22px;
   }
@@ -517,7 +519,7 @@ h1 {
   font-size: 18px;
   font-weight: 200;
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   .location p {
     font-size: 22px;
     max-width: 88%;
@@ -548,7 +550,7 @@ footer {
     padding: 70px 30px;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   footer {
     display: flex;
     justify-content: space-between;
@@ -574,7 +576,7 @@ footer p {
     margin-left: -80px;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   footer p {
     max-width: 35%;
     align-items: center;
@@ -596,7 +598,7 @@ footer .social-media {
     justify-content: center;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1200px) {
   footer .social-media {
     gap: 30px;
     align-items: flex-start;

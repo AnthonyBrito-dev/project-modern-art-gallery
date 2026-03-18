@@ -32,14 +32,14 @@
             position: relative;
             max-width: 60%;
             margin-left: -15px;
-            
+            max-height: 775px;
         }   
         
         @include breakpoint(largedesktop) {
             display: flex;
             position: relative;
             width: 55%;
-            margin-left: 470px;
+            margin-left: 48%;
             max-height: 750px;
         } 
     }
@@ -57,9 +57,8 @@
         @include breakpoint(largedesktop) {
             position: absolute;
             color: white;
-            margin-top: -600px;
-            font-size: 96px;
-            margin-left: 185px;
+            font-size: 99px;
+            margin-left: -53%;
         }
     }
 
@@ -77,10 +76,11 @@
         
         @include breakpoint(largedesktop) {
             position: absolute;
-            margin-top: -530px;
-            margin-left: 960px;
-            max-width: 23%;
-            font-size: 22px; 
+            margin-top: 11%;
+            margin-left: -5%;
+            max-width: 24%;
+            font-size: 28px;
+            font-weight: 300; 
         }
     }
 
@@ -93,8 +93,6 @@
 
         @include breakpoint(largedesktop) {
             position: absolute;
-            margin-top: -330px;
-            margin-left: 960px;
         }
     }
 }
@@ -148,7 +146,7 @@
         @include breakpoint(largedesktop) {
             grid-row: 1 / span 2;
             grid-column: 2 / span 1;
-            max-width: 90%;
+            max-width: 100%;
             display: grid;
         }        
 
@@ -170,9 +168,7 @@
         @include breakpoint(largedesktop) {
             line-height: 45px;
             text-transform: uppercase;
-            align-content: center;
-            justify-items: center;
-            justify-content: center;
+            max-width: 110%;
         }
     }
 
@@ -190,7 +186,7 @@
         @include breakpoint(largedesktop) {
             font-size: 20px;
             max-width: 80%;
-            margin-top: -20px;
+            margin-top: 0px;
         }
     }
 }
@@ -351,6 +347,10 @@
         @include breakpoint(tablet) {
             display: block;
             width: 100%;
+        }
+
+        @include breakpoint(largedesktop) {
+            display: none;
         }
     }
 
